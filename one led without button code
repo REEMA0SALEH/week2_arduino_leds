@@ -1,0 +1,18 @@
+//one led without button
+int red1 = 4;
+
+void setup() {
+  // put your setup code here, to run once:
+pinMode(red1,  OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+digitalWrite(red1,  HIGH); // led is on
+
+delay(30000); // led stays on for 3 seconds
+
+digitalWrite(red1,  LOW); // led is off
+
+delay(30000); // led stays off for 3 seconds
+}
